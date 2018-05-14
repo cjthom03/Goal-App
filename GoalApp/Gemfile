@@ -43,6 +43,7 @@ group :development, :test do
   gem 'factory_bot_rails'
   gem 'shoulda-matchers'
   gem 'rails-controller-testing'
+  gem 'spring'
 end
 
 group :development do
@@ -56,6 +57,8 @@ group :development do
   gem 'binding_of_caller'
   gem 'pry-rails'
   gem 'annotate'
+  gem 'spring-commands-rspec'
+  gem 'guard-rspec'
 end
 
 group :test do
